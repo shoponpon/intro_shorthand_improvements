@@ -13,17 +13,17 @@
 
 ---
 @snap[north raleway-medium span-80]
-#### Initialize
+### Initialize
 @snapend
 
-### Current
+## Current
 ```text
 const a = {x: o.x};
 ```
 
 <br/>
 
-### Proposal
+## Proposal
 ```text
 const a = {o.x};
 ```
@@ -31,17 +31,17 @@ const a = {o.x};
 ---
 
 @snap[north raleway-medium span-80]
-#### Destruct
+### Destruct
 @snapend
 
-### Current
+## Current
 ```text
 ({ x: a.x } = o);
 ```
 
 <br/>
 
-### Proposal
+## Proposal
 ```text
 ({ a.x } = o);
 ```
