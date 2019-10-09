@@ -18,7 +18,7 @@
 
 ---
 @snap[north raleway-medium span-80]
-### Initialize(dot notation)
+### Initialize<br/>(dot notation)
 @snapend
 
 #### Current
@@ -35,7 +35,7 @@ const a = {o.x};
 
 +++
 @snap[north raleway-medium span-80]
-### Initialize(bracket notation)
+### Initialize<br/>(bracket notation)
 @snapend
 
 #### Current
@@ -52,7 +52,7 @@ const a = {o['x']};
 
 ---
 @snap[north raleway-medium span-80]
-### Destruct(dot notation)
+### Destruct<br/>(dot notation)
 @snapend
 
 #### Current
@@ -69,7 +69,7 @@ const a = {o['x']};
 
 +++
 @snap[north raleway-medium span-80]
-### Destruct(bracket notation)
+### Destruct<br/>(bracket notation)
 @snapend
 
 #### Current
