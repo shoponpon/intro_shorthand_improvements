@@ -8,8 +8,8 @@
 @snapend
 
 ### プロパティ割り当ての省略記法の提案
-#### - オブジェクトのInitialize
-#### - オブジェクトのDestruct
+#### - オブジェクトのInitialize |
+#### - オブジェクトのDestruct |
 
 ---
 @snap[north raleway-medium span-80]
