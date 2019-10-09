@@ -82,21 +82,4 @@ const a = {o['x']};
 ```
 
 ---
-
----
-@snap[north raleway-medium span-80]
-### お気持ち
-@snapend
-```text
-({ a.x } = o);
-```
-
-これちょっとわかりにくいかもしれない。
-
-```text
-({ x: a.x } = o); //期待される動作
-a.x = o.x; // これと混同しそう
-```
-
----
 # END
