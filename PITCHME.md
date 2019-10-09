@@ -3,7 +3,8 @@
 ##### state 0
 ### Shorthand<br/>Property Assignment<br/>Improvements
 ##### 2019.10.09 \#tc39_study [@sho_oishi](https://twitter.com/sho_oishi)
-
+##### 2 min
+<br>
 ###### Proposal: [https://github.com/rbuckton/proposal-shorthand-improvements](https://github.com/rbuckton/proposal-shorthand-improvements)
 
 ---
