@@ -1,4 +1,4 @@
-title: Introduction of Shorthand Property Assignment Improvements
+@title[Introduction of Shorthand Property Assignment Improvements]
 
 ##### state 0
 ### Shorthand<br/>Property Assignment<br/>Improvements
