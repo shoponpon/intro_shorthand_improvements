@@ -4,7 +4,7 @@
 ### Shorthand<br/>Property Assignment<br/>Improvements
 ##### 2019.10.09 \#tc_study38
 
-Proposal: [https://github.com/rbuckton/proposal-shorthand-improvements](https://github.com/rbuckton/proposal-shorthand-improvements)
+###### Proposal: [https://github.com/rbuckton/proposal-shorthand-improvements](https://github.com/rbuckton/proposal-shorthand-improvements)
 
 ---
 @snap[north raleway-medium span-80]
@@ -114,6 +114,9 @@ stdout
 ```JavaScript
 { foo: 123, bar: true, poyo: null }
 ```
+
+---
+# スマート
 
 ---
 # END
