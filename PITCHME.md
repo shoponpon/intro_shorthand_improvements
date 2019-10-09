@@ -6,7 +6,7 @@
 
 ---
 @snap[north raleway-medium span-80]
-#### 概要
+### 概要
 @snapend
 
 ### プロパティ割り当ての<br/>省略記法の提案
@@ -15,68 +15,68 @@
 
 ---
 @snap[north raleway-medium span-80]
-## Initialize(dot notation)
+### Initialize(dot notation)
 @snapend
 
-### Current
+#### Current
 ```text
 const a = {x: o.x};
 ```
 
 <br/>
 
-### Proposal
+#### Proposal
 ```text
 const a = {o.x};
 ```
 
 +++
 @snap[north raleway-medium span-80]
-## Initialize(bracket notation)
+### Initialize(bracket notation)
 @snapend
 
-### Current
+#### Current
 ```text
 const a = {'x': o['x']};
 ```
 
 <br/>
 
-### Proposal
+#### Proposal
 ```text
 const a = {o['x']};
 ```
 
 ---
 @snap[north raleway-medium span-80]
-## Destruct(dot notation)
+### Destruct(dot notation)
 @snapend
 
-### Current
+#### Current
 ```text
 ({ x: a.x } = o);
 ```
 
 <br/>
 
-### Proposal
+#### Proposal
 ```text
 ({ a.x } = o);
 ```
 
 +++
 @snap[north raleway-medium span-80]
-## Destruct(dot notation)
+### Destruct(dot notation)
 @snapend
 
-### Current
+#### Current
 ```text
 ({ 'x': a['x'] } = o);
 ```
 
 <br/>
 
-### Proposal
+#### Proposal
 ```text
 ({ a['x'] } = o);
 ```
@@ -85,7 +85,7 @@ const a = {o['x']};
 
 ---
 @snap[north raleway-medium span-80]
-## お気持ち
+### お気持ち
 @snapend
 ```text
 ({ a.x } = o);
