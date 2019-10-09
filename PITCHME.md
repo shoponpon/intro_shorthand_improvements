@@ -68,7 +68,7 @@ const a = {o['x']};
 
 +++
 @snap[north raleway-medium span-80]
-### Destruct(dot notation)
+### Destruct(bracket notation)
 @snapend
 
 #### Current
