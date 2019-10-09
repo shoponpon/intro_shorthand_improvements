@@ -15,12 +15,12 @@
 @snapend
 
 ## Current
-```Javascript
+```text
 const a = {x: o.x};
 ```
 
 ## Proposal
-```Javascript
+```text
 const a = {o.x};
 ```
 
