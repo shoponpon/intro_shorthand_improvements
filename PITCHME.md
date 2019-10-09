@@ -30,7 +30,7 @@ const a = {x: o.x};
 const a = {o.x};
 ```
 
----
++++
 @snap[north raleway-medium span-80]
 ## Initialize(bracket notation)
 @snapend
@@ -64,7 +64,7 @@ const a = {o['x']};
 ({ a.x } = o);
 ```
 
----
++++
 @snap[north raleway-medium span-80]
 ## Destruct(dot notation)
 @snapend
