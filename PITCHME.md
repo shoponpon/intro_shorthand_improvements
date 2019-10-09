@@ -14,15 +14,13 @@
 ### 1. オブジェクトの初期化
 @snapend
 
-Current
-
-```
+## Current
+```Javascript
 const a = {x: o.x};
 ```
 
-Proposal
-
-```
+## Proposal
+```Javascript
 const a = {o.x};
 ```
 
