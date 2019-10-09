@@ -19,14 +19,14 @@
 @snapend
 
 #### Current
-```text
+```JavaScript
 const a = {x: o.x};
 ```
 
 <br/>
 
 #### Proposal
-```text
+```JavaScript
 const a = {o.x};
 ```
 
@@ -36,14 +36,14 @@ const a = {o.x};
 @snapend
 
 #### Current
-```text
+```JavaScript
 const a = {'x': o['x']};
 ```
 
 <br/>
 
 #### Proposal
-```text
+```JavaScript
 const a = {o['x']};
 ```
 
@@ -53,14 +53,14 @@ const a = {o['x']};
 @snapend
 
 #### Current
-```text
+```JavaScript
 ({ x: a.x } = o);
 ```
 
 <br/>
 
 #### Proposal
-```text
+```JavaScript
 ({ a.x } = o);
 ```
 
@@ -70,14 +70,14 @@ const a = {o['x']};
 @snapend
 
 #### Current
-```text
+```JavaScript
 ({ 'x': a['x'] } = o);
 ```
 
 <br/>
 
 #### Proposal
-```text
+```JavaScript
 ({ a['x'] } = o);
 ```
 
