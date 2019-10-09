@@ -83,31 +83,33 @@ const a = {o['x']};
 
 ---
 code
-```Text
+```JavaScript
 var o = {foo: 123, bar: true, 'poyo': null};
 var a = {};
-@[2]({foo: a.foo, bar: a.bar, 'poyo': a['poyo']} = o);
+({foo: a.foo, bar: a.bar, 'poyo': a['poyo']} = o);
 
 console.log(a);
 ```
+@[3]
 
 stdout
-```
+```JavaScript
 { foo: 123, bar: true, poyo: null }
 ```
 
 +++
 code
-```Text
+```JavaScript
 var o = {foo: 123, bar: true, 'poyo': null};
 var a = {};
-@[2]({a.foo, a.bar, a['poyo']} = o);
+({a.foo, a.bar, a['poyo']} = o);
 
 console.log(a);
 ```
+@[3]
 
 stdout
-```
+```JavaScript
 { foo: 123, bar: true, poyo: null }
 ```
 
