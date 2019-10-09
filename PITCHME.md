@@ -14,14 +14,18 @@
 ### 1. オブジェクトの初期化
 @snapend
 
-## Current
+#### Current
+
+
 ```text
 const a = {x: o.x};
 ```
 
-## Proposal
+
+#### Proposal
+
+
 ```text
 const a = {o.x};
 ```
-
 ---
