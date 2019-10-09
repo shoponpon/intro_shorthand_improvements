@@ -3,19 +3,24 @@
 ##### 2019.10.09 \#tc_study38
 
 ---
-### Abstract
+@snap[north raleway-medium span-80]
+### 概要
+@snapend
 
- - プロパティ割り当ての省略記法の提案
+プロパティ割り当ての省略記法の提案
 
 ---
-### 1. Object initilizers
- - current
+@snap[north raleway-medium span-80]
+### 1. オブジェクトの初期化
+@snapend
+
+Current
 
 ```
 const a = {x: o.x};
 ```
 
- - proposal
+Proposal
 
 ```
 const a = {o.x};
