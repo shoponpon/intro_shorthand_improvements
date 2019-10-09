@@ -1,5 +1,5 @@
 ##### state 0
-#### Shorthand Property Assignment Improvements
+### Shorthand<br/>Property Assignment<br/>Improvements
 ##### 2019.10.09 \#tc_study38
 
 ---
@@ -7,7 +7,7 @@
 #### 概要
 @snapend
 
-### プロパティ割り当ての省略記法の提案
+### プロパティ割り当ての<br/>省略記法の提案
 #### - オブジェクトのInitialize |
 #### - オブジェクトのDestruct |
 
